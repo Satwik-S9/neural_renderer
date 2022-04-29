@@ -8,6 +8,9 @@ The library is fully functional and it passes all the test cases supplied by the
 Detailed documentation will be added in the near future.
 ## Requirements
 Python 2.7+ and PyTorch 0.4.0.
+> **What I changed**: Changed the code in `neural_renderer/cuda/*.cpp` to work for newer versions of pytorch. Tested for `pytorch 1.11.0` and `cuda-11.3`. [(Reference)](https://stackoverflow.com/questions/65173409/building-wheel-for-neural-renderer-pytorch-setup-py-installing-multiperson)
+
+> All credit goes to the orignal [authors](https://github.com/daniilidis-group/neural_renderer). 
 
 The code has been tested only with PyTorch 0.4.0, there are no guarantees that it is compatible with older versions.
 Currently the library has both Python 3 and Python 2 support.
